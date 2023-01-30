@@ -13,10 +13,10 @@ const App=()=> {
     <List/>
     <Routes>
       <Route exact path="/" element={<Home/>}/>
-      <Route path="/" element={<About/>}/>
-      <Route path="/" element={<Services/>}/>
-      <Route path="/" element={<Contact/>}/>
-      <Route path="/" element={<Reviews/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/services" element={<Services/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/reviews" element={<Reviews/>}/>
     </Routes>
     <Footer/>
     </>
