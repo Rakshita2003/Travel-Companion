@@ -26,11 +26,13 @@ const List =()=> {
             <NavLink to="/contact" element={<Contact/>} className="listItem" activeClassName="activeItem">Contact</NavLink>
             
           </span>
+
           <img
             alt="logo7810"
             src= {logo}
             className="logo"
           />
+          
           <button className="button1">
             <button className="king-button1">
               <span className="text12">Sign Up</span>
