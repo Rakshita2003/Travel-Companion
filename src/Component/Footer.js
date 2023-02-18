@@ -56,6 +56,7 @@ const Footer=()=> {
               </div>
             </div>
           </div>
+          
           <span className="text22">
             <span className="text23">
              @ TravelCompanion. All Rights Reserved
