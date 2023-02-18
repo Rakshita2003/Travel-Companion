@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mogra:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-mogra: Mogra;
+  --font-inter: Inter;
+  --paragraph-2: Roboto;
+
+  /* font sizes */
+  --paragraph-2-size: 16px;
+  --font-size-sm: 20px;
+  --font-size-base: 24px;
+  --font-size-lg: 32px;
+  --font-size-xl: 36px;
+  --font-size-2xl: 64px;
+
+  /* Colors */
+  --color-orangered-100: #ff6701;
+  --color-orangered-200: rgba(255, 103, 1, 0.97);
+  --color-gray-100: #292929;
+  --colors-gray: rgba(17, 17, 17, 0.48);
+  --color-gray-300: rgba(0, 0, 0, 0.1);
+  --color-orange-100: #ffa82f;
+  --color-orange-200: #f49d1a;
+  --color-antiquewhite-100: #fcecdd;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-md: 8px;
+
+  /* Paddings */
+  --padding-sm: 16px;
+  --padding-md: 20px;
+
+  /* border radiuses */
+  --br-sm: 2px;
+  --br-md: 4px;
+  --br-lg: 48px;
+}

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background: rgba(255, 168, 47, 0.6);
+  /* padding: 0 0; */
+} 
+.footer {
+    top: 4518px;
+    left: 0px;
+    width: 1440px;
+    height: 278px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 0.10000000149011612);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: rgba(255, 224, 93, 0.7200000286102295);
+  }
+  .content1 {
+    top: 42px;
+    left: 155px;
+    width: 857px;
+    height: 227px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .logo1 {
+    top: 0px;
+    left: 0px;
+    width: 148px;
+    height: 155px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .text13 {
+    left: 570px;
+    color: rgba(255, 102, 0, 0.6499999761581421);
+    width: 287px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .rights {
+    top: 138px;
+    left: 536px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border-color: transparent;
+    justify-content: center;
+  }
+  .emoji {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    padding: 0;
+    position: relative;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .vector {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+  .vector1 {
+    top: 4.3680419921875px;
+    left: 5.37109375px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+  .logo2 {
+    top: 177px;
+    left: 637px;
+    width: 152.00064086914062px;
+    height: 50px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .twitter {
+    top: 0px;
+    left: 0px;
+    width: 60.045692443847656px;
+    height: 50px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .bg {
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+  }
+  .twitter1 {
+    top: 14.84375px;
+    left: 15.011367797851562px;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+  }
+  .facebook {
+    top: 0px;
+    left: 91.9549560546875px;
+    width: 60.045692443847656px;
+    height: 50px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .bg1 {
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+  }
+  .facebook1 {
+    top: 12.5px;
+    left: 15.011367797851562px;
+    width: 30px;
+    height: 25px;
+    position: absolute;
+  }
+  .text22 {
+    top: 176px;
+    left: 715px;
+    color: rgba(255, 102, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 28px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .text23 {
+    color: rgba(255, 102, 0, 1);
+  }
+  @media(max-width: 1600px) {
+    .first-page {
+      width: 1600px;
+      height: 4787px;
+    }
+    .text02 {
+      top: 88px;
+      left: 73px;
+    }
+    .header {
+      top: 22px;
+      left: 11px;
+      width: 1585px;
+    }
+    .text11 {
+      top: 55px;
+      left: 517px;
+      color: rgba(255, 102, 0, 0.97);
+      font-size: 24px;
+      font-family: Montserrat;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .button1 {
+      top: 29px;
+      right: 64px;
+      width: 167px;
+      height: 60px;
+    }
+    .text12 {
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      font-family: Montserrat;
+      font-weight: 700;
+      line-height: 28px;
+      text-decoration: none;
+    }
+    .footer {
+      left: 0px;
+      width: 1600px;
+      bottom: 0px;
+    }
+  }
+  @media(max-width: 1200px) {
+    .content {
+      top: 156px;
+      left: -30px;
+    }
+    .header {
+      top: 9px;
+      left: -129px;
+      width: 1200px;
+      height: 106px;
+    }
+  }

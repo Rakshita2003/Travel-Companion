@@ -1,32 +1,46 @@
 import React from 'react';
+import Home from '../Component/Home';
+import About from '../Component/About';
+import Services from '../Component/Services';
+import Contact from '../Component/Contact';
+import Reviews from '../Component/Reviews';
+import {NavLink} from 'react-router-dom';
 import logo from '../Images/logo.png';
-import { NavLink } from 'react-router-dom';
-const List=()=> {
+import '../CSS/Home.css';
+import '../CSS/Footer.css';
+
+
+const List =()=> {
   return (
     <>
-    <header>
-      <div className="container container-flex">
-        <div className="logoContainer">
-          <img src={logo} alt="logo" className="logo"/>
-          </div>
-          <nav>
-            <div className="list">
-              <NavLink to="/" className="listItem"
-              activeClassName="activeItem">Home</NavLink>
-              <NavLink to="/about" className="listItem"
-              activeClassName="activeItem">About</NavLink>
-              <NavLink to="/services" className="listItem"
-              activeClassName="activeItem">Services</NavLink>
-              <NavLink to="/contact" className="listItem"
-              activeClassName="activeItem">Contact</NavLink>
-              <NavLink to="/reviews" className="listItem"
-              activeClassName="activeItem">Reviews</NavLink>
-            </div>
-          </nav>
+     <div>
+     <div className="first-page body">
+       <div className="header">
+          <span className="text11">
+            {' '}
+            
+            <NavLink exact to="/" element={<Home/>} className="listItem" activeClassName="activeItem">Home</NavLink>
+            <NavLink to="/about" element={<About/>} className="listItem" activeClassName="activeItem">About</NavLink>
+            <NavLink to="/services" element={<Services/>} className="listItem" activeClassName="activeItem">Services</NavLink>
+            <NavLink to="/reviews" element={<Reviews/>} className="listItem" activeClassName="activeItem">Reviews</NavLink>
+            <NavLink to="/contact" element={<Contact/>} className="listItem" activeClassName="activeItem">Contact</NavLink>
+            
+          </span>
+          <img
+            alt="logo7810"
+            src= {logo}
+            className="logo"
+          />
+          <button className="button1">
+            <button className="king-button1">
+              <span className="text12">Sign Up</span>
+            </button>
+          </button>
+        </div>
+       </div>
       </div>
-    </header>
-    </>
-  )
-}
-
-export default List;
+      </>
+      )
+    }
+    
+    export default List;
