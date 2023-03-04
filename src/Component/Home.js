@@ -8,7 +8,7 @@ const Home = (props) => {
     <>
     <div>
       <div className="first-page">
-        <div className="content">
+        <div className="content22">
           <img
             alt="pic204"
             src={pic1}

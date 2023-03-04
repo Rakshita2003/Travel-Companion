@@ -7,7 +7,7 @@ import Reviews from '../Component/Reviews';
 import {NavLink} from 'react-router-dom';
 import logo from '../Images/logo.png';
 import '../CSS/Home.css';
-import '../CSS/Footer.css';
+// import '../CSS/Footer.css';
 
 
 const List =()=> {
