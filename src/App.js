@@ -6,6 +6,9 @@ import Reviews from './Component/Reviews';
 import Contact from './Component/Contact';
 import Footer from './Component/Footer';
 import '../src/CSS/Home.css';
+import Privacy from './Component/Privacy';
+import Safety from './Component/Safety';
+import TermsAndConditions from './Component/TermsAndConditions';
 
 const App=()=> {
   return (
@@ -18,6 +21,10 @@ const App=()=> {
         <Contact/>
         <Footer/>
 
+
+<Safety/>
+<Privacy/>
+<TermsAndConditions/>
     </>
   )
 }
